@@ -25,7 +25,7 @@ const OnlineDelivey = () => {
         <div className="font-bold text-[25px]">Top Restaurant with online food delivery in Lahore</div>
        
       </div>
-      <div className='grid-cols-2 md:grid grid-cols-4 gap-3'>
+      <div className='grid grid-cols-2 md:grid grid-cols-4 gap-3'>
 
         {
             data.map((d,i)=>{
